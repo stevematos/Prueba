@@ -39,55 +39,47 @@ Y se logrará a través de este documento, donde se hará mantenimiento de todos lo
 
 1.2.	Roles, responsabilidades y cantidad 
 Roles	Responsabilidades	Cantidad
-Gestor de la configuración	Se encargara de gestionar la infraestructura global de la gestión de la configuración y el entorno del equipo de desarrollo de los productos	2
-Jefe de proyecto	Se encargara de gestionar y velar por el correcto desarrollo del proyecto en su totalidad.	4
-Gerente funcional	Se encargara de aprobar y vigilar la utilización de los recursos para los proyecto sin afectar notoriamente el capital o recursos internos de la empresa.	1
-Director de programa	Se encargara de gestionar programas ( conjunto de proyectos relacionados) de forma óptima sin que los proyectos sean afectados entre sí.	1
+Gestor de la configuración	Se encargará de gestionar la infraestructura global de la gestión de la configuración y el entorno del equipo de desarrollo de los productos	2
+Jefe de proyecto	Se encargará de gestionar y velar por el correcto desarrollo del proyecto en su totalidad.	4
+Gerente funcional	Se encargará de aprobar y vigilar la utilización de los recursos para los proyectos sin afectar notoriamente el capital o recursos internos de la empresa.	1
+Director de programa	Se encargará de gestionar programas (conjunto de proyectos relacionados) de forma óptima sin que los proyectos sean afectados entre sí.	1
 Miembros del equipo	Personas que formaran parte del equipo operativo de los proyectos.	20
 
-1.3.	Políticas, Directrices y procedimientos
--	Documento de privilegios
--	Documento de los estándares que se utilizan en la consultora
--	Políticas de la empresa
--	Manual de procesos
+1.3.	Políticas, Directrices y procedimientos	
 
 Lineamientos Generales
-1.	El proyecto deberá ser ejecutado en iteraciones incrementales con una demostración del producto al finalizar cada iteración: con esta política, se conocerá el estado del proyecto, evaluando si los requisitos cumplen con las expectativas del cliente, si la calidad es la esperada, o si hay retrasos; agilizando la toma de decisiones correctivas.
-2.	El proyecto se ejecutará en iteraciones incrementales con una duración fija de 3 semanas.
-3.	Los requisitos se desarrollarán priorizados por el valor aportado al cliente: Esta política permitirá que los objetivos más importantes del proyecto sean atendidos.
-4.	El control y seguimiento del proyecto se basará en los requisitos completados en cada iteración. Se entiende como un requisito, los entregables asociados a: análisis, desarrollo, pruebas, documentación, etc. e integrados con los entregables de las iteraciones anteriores.
-5.	Cada requisito debe ser independiente del resto de los requisitos, en la medida de lo posible.
-6.	Cada requisito debe ser demostrable, permitiendo cómo comprobar con el cliente que el requisito está completado y que se cumplen sus expectativas.
-7.	El requisito debe ser de un grado de esfuerzo para ser completado semejante al del resto de requisitos: de manera que la organización y el cliente, puedan realizar una extrapolación del progreso del proyecto.
-Desarrollo
-1.	Los componente de software, deberán ser desarrollados y liberados por partes, y no entregados al final del proyecto.
-2.	El desarrollo de los componente de software que conformaran la solución, deberán ser liberados en varias iteraciones.
+1.	Los proyectos deberán ser ejecutado en iteraciones incrementales con una demostración del producto al finalizar cada iteración: con esta política, se conocerá el estado del proyecto, evaluando si los requisitos cumplen con las expectativas del cliente, si la calidad es la esperada, o si hay retrasos; agilizando la toma de decisiones correctivas.
+2.	Los requisitos se desarrollarán priorizados por el valor aportado al cliente: Esta política permitirá que los objetivos más importantes del proyecto sean atendidos.
+3.	El control y seguimiento de los proyectos se basará en los requisitos completados en cada iteración. Se entiende como un requisito, los entregables asociados a: análisis, desarrollo, pruebas, documentación, etc. e integrados con los entregables de las iteraciones anteriores. (ElmerX/NombreProyecto/Gestión)
+4.	Cada requisito debe ser independiente del resto de los requisitos, en la medida de lo posible. (ElmerX/NombreProyecto/Análisis)
+5.	Cada requisito debe ser demostrable, permitiendo cómo comprobar con el cliente que el requisito está completado y que se cumplen sus expectativas. (ElmerX/NombreProyecto/Análisis)
+6.	El requisito debe ser de un grado de esfuerzo para ser completado semejante al del resto de requisitos: de manera que la organización y el cliente, puedan realizar una extrapolación del progreso del proyecto. (ElmerX/NombreProyecto/Análisis)
+Desarrollo (ElmerX/NombreProyecto/Desarrollo)
+1.	Los componentes de software deberán ser desarrollados y liberados por partes, y no entregados al final del proyecto.
+2.	El desarrollo del componente de software que conformarán la solución, deberá ser liberados en varias iteraciones.
 3.	Cada iteración deberá producir software con calidad de producción, probado, integrado, y documentado (funcional, técnica).
 4.	Cada iteración deberá cumplir con un subconjunto de requerimientos.
 5.	Cada iteración deberá contemplar (análisis, diseño, implementación, documentación, etc.).
 Pruebas
-1.	Cada proyecto debe incorporar las practicas de TDD (Test Driven Development).
+1.	Cada proyecto debe incorporar las prácticas de TDD (Test Driven Development).
 2.	Cada uno de los entregables, deberá contener scripts de pruebas unitarias, integrales, funcionales, etc; mediante la utilización de frameworks como junit, dbunit, mockObjtects, etc.
 Documentación
-1.	La documentación del proyectos, específicamente:  manual de usuario, manual de operaciones, arquitectura de la solución, especificaciones, etc; deberán ser entregables parciales para cada una de las iteraciones, es decir, la documentación no se liberara al final del proyecto, sino en entregables parciales.
+7.	La documentación de los proyectos, específicamente:  manual de usuario, manual de operaciones, arquitectura de la solución, especificaciones, etc; deberán ser entregables parciales para cada una de las iteraciones, es decir, la documentación no se liberará al final del proyecto, sino en entregables parciales. (ElmerX/NombreProyecto/Análisis)
 Control de Calidad
-1.	Cada uno de los entregables, serán sometidos a un script de calidad, que ejecutara la organización,  y no serán admitidos como productos del proyecto hasta alcanzar un nivel aceptable.
+8.	Cada uno de los entregables, serán sometidos a un script de calidad, que ejecutara la organización, y no serán admitidos como productos del proyecto hasta alcanzar un nivel aceptable. (ElmerX/NombreProyecto/Gestión)
 Control de Riesgos
-1.	Los riesgos serán identificados en la primera iteración, llevándose a cabo también una valoración inicial de la exposición al riesgo y planes de contingencia. En cada iteración se revisará y actualizará el documento “Lista de Riesgos”, añadiendo además la lista de riesgos más importantes actualizada por cada iteración.
+9.	Los riesgos serán identificados en la primera iteración, llevándose a cabo también una valoración inicial de la exposición al riesgo y planes de contingencia. En cada iteración se revisará y actualizará el documento “Lista de Riesgos”, añadiendo además la lista de riesgos más importantes actualizada por cada iteración. (ElmerX/NombreProyecto/Gestión)
 Control de Artefactos
 1.	Cada uno de los artefactos del proyecto, deberán ser mantenidos bajo un sistema de control de versiones.
-2.	La organizacion disponibilizara un sistema de control de versiones, que deberá ser actualizado por el cliente de forma remota.
+2.	La organización disponibilizara un sistema de control de versiones, que deberá ser actualizado por el cliente de forma remota.
 1.4.	Herramientas, entorno e infraestructura
-HERRAMIENTA	DESCRIPCION
-Git	Software de control de versiones. Su propósito es llevar registro de los cambios en archivos de computadora y coordinar el trabajo que varias personas realizan sobre archivos compartidos.
-Spring Boot	Spring Boot facilita la creación de aplicaciones basadas en Spring independientes y de grado de producción que puede "simplemente ejecutar".
-
-Tomamos una opinión de la plataforma Spring y las bibliotecas de terceros para que pueda comenzar con el mínimo esfuerzo. La mayoría de las aplicaciones Spring Boot necesitan muy poca configuración Spring.
-Glassfish	Servidor de aplicaciones para la plataforma Java EE. Se usará para agilizar y proporcionar una estructura adecuada al proyecto.
-Andorid Studio	IDE oficial de Android. Está diseñado específicamente para que Android acelere su desarrollo y lo ayude a crear aplicaciones de la más alta calidad para cada dispositivo Android.
-Postgresql	Base de datos relacional, se usará como contenedor de datos para la aplicación.
-Heroku	Plataforma de computación en la nube, proporciona un conjunto de herramientas de desarrollo y servicios específicos de la aplicación bajo una sola plataforma para desarrollar, probar, implementar y administrar el proceso de desarrollo de aplicaciones. Servirá como plataforma de despliegue para la aplicación.
-Amazon Web Services (AWS)	Plataforma de computación en la nube, que se usara como entorno de despliegue de la base de datos y del API.
+-	Git
+-	Spring Framework
+-	GlassFish
+-	Android Studio
+-	Postgresql
+-	Heroku
+-	Amazon Web Services (AWS)
 1.5.	Calendario 
 ACTIVIDAD	TIEMPO (días)	ROL
 		
